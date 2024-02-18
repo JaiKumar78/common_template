@@ -20,15 +20,15 @@ const About = () => {
       <div className="about-section-text-container" style={{ lineHeight: '1.5' }}>
         {/* <p className="primary-subheading">About</p> */}
         
-        <p className="primary-text">- Accredited by NBA Since 2002</p>
-        <p className="primary-text">- Anna university recogonized Research centre</p>
-        <p className="primary-text">- Strong Industrial collaboration and Alumni interaction for placements</p>
-        <p className="primary-text">- Several clubs & student chapters for promoting Co-Curricular activities</p>
-        <p className="primary-text">- Motivating students to participate in various national events</p>
-        <p className="primary-text">- Several value-added courses are conducted beyond curriculum</p>
-        <p className="primary-text">- Facilitating Industrial Visits and NGOs for the comprehensive development of the students </p>
+        <p className="primary-text">- The department of Artificial Intelligence and Data Science (ADS) was established in the academic year 2022 with an intake of 60. </p>
+        <p className="primary-text">- With increasing demand for the course, the intake increased to 180 in 2023</p>
+        <p className="primary-text">- This is a 4-year degree course approved by AICTE, New Delhi affiliated to Anna University, Chennai.</p>
+        <p className="primary-text">- The Department has experienced faculty members state-of-the-art infrastructure and equipment's/software’s with latest configurations.</p>
+        <p className="primary-text">- The curriculum includes core subjects and elective subjects based on recent trends in Artificial Intelligence and Data Science.</p>
+        {/* <p className="primary-text">- Several value-added courses are conducted beyond curriculum</p>
+        <p className="primary-text">- Facilitating Industrial Visits and NGOs for the comprehensive development of the students </p> */}
         <div className="about-buttons-container">
-          <a href="https://www.stjosephscse.com/#/"
+          <a href="https://stjosephstechnology.ac.in/web/ads/"
             target="_blank"
             style={{
               color: "white",

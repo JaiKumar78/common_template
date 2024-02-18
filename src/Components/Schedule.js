@@ -9,7 +9,7 @@ const Popup = ({ details, onClose }) => {
         <div className="details-grid">
           {details.map((dayDetails, index) => (
             <div key={index} className="details-row">
-              <p><strong>Day {index + 1}:</strong> {dayDetails}</p>
+              <p><strong>{index + 1}:</strong> {dayDetails}</p>
             </div>
           ))}
         </div>
@@ -238,7 +238,7 @@ const Schedule = () => {
 
   });
   
-  const x = ['Web Development', 'UI/UX', 'Poster Designing', 'Python Programming', 'Ethical Hacking', 'Game Development']
+  const x = ['Digital Marketing', 'Game Development', 'Graphic Design', 'CyberSecurity Basics', 'Mobile App Development']
 
   const generateDates = (startWeek) => {
     const startDate = new Date("2024-04-15");
@@ -281,7 +281,7 @@ const Schedule = () => {
   <table style={{ width: "80%", margin: "0 auto", borderCollapse: "collapse", }}>
     <thead>
       <tr>
-        {[1, 2, 3, 4, 5, 6].map((week) => (
+        {[1, 2, 3, 4, 5].map((week) => (
           <th key={week} onClick={() => handleWeekChange(week)} style={{ padding: "10px", textAlign: "center", cursor: "pointer", backgroundColor: selectedWeek === week ? "#007BFF" : "whitesmoke", transition: "background-color 0.5s", minWidth: "100px" }}>
             {x[week - 1]} <br />(Week {week})
           </th>

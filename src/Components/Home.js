@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 const Home = () => {
   const staticContent = [
     {
-      heading: "Department Of<br/>Computer Science &<br/>Engineering Offers a summer internship by the best professionals. &<br/> From 15th April to 24th May",
+      heading: "Department Of<br/>Artificial Intelligence &<br/>Data Science Offers a summer internship by the best professionals. &<br/> From 15th April to 24th May",
       text: [
         "Courses Offered",
         "- Web Development",
@@ -15,7 +15,7 @@ const Home = () => {
         "- Game Development",
         "- Python Programming",
       ],
-      link: "https://forms.gle/EYDz9tTzWM4AvGCa7",
+      link: "https://forms.gle/52rcRzb1nQkGiNaX6",
       buttonText: "Register Now",
     },
   ];  
@@ -107,7 +107,7 @@ const Home = () => {
           background: 'linear-gradient(blue, black)',
         backgroundClip: 'text',
         WebkitTextFillColor: 'transparent',fontSize: '4vh' }}>
-          Computer Science & Engineering <br /></h1>
+          Artificial Intelligence & Data Science <br /></h1>
         <h2 style={{ textAlign: 'center', whiteSpace: 'pre-line', fontSize:'2rem', color:'#4c4c4c',
           background: 'linear-gradient(blue, black)',
         backgroundClip: 'text',

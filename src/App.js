@@ -112,7 +112,7 @@ function App() {
       <div className="home-poster-container">
         <div className="home-container">
           {/* <Home /> */}
-          <a className="regf" href="https://forms.gle/EYDz9tTzWM4AvGCa7" target="_blank" style={{marginLeft: '10vw'}}>
+          <a className="regf" href="https://forms.gle/52rcRzb1nQkGiNaX6" target="_blank" style={{marginLeft: '10vw'}}>
             <span></span>
             <span></span>
             <span></span>
