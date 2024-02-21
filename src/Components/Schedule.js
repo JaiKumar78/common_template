@@ -9,7 +9,7 @@ const Popup = ({ details, onClose }) => {
         <div className="details-grid">
           {details.map((dayDetails, index) => (
             <div key={index} className="details-row">
-              <p><strong>{index + 1}:</strong> {dayDetails}</p>
+              <p> {dayDetails}</p>
             </div>
           ))}
         </div>
@@ -24,221 +24,110 @@ const Schedule = () => {
 
   const [detailsByWeek, setDetailsByWeek] = useState({
     "1:0": [
-      
-        "kseejbfisrbrfgoanserlv",
-        "Details for Day 2 of Week 1",
-        "Details for Day 3 of Week 1",
-        "Details for Day 4 of Week 1",
-        "Details for Day 5 of Week 1"
+        "Digital Marketing",
+        "(Gain Knowledge in Online Marketing, Content Creation, Social Media Management)"
       ],
 
       "1:1":[
-        "Details for Day 1 of Week 2",
-        ".wlibrkajse coasnogineorignod v  ",
-        "Details for Day 3 of Week 2",
-        "Details for Day 4 of Week 2",
-        "Details for Day 5 of Week 2"
+        "Game Development",
+        "(Basics, Unity Engine, Unreal Engine)"
       ],
       "1:2":[
-        "Details for Day 1 of Week 3",
-        "Details for Day 2 of Week 3",
-        "Details for Day 3 of Week 3",
-        "Details for Day 4 of Week 3",
-        "Details for Day 5 of Week 3"
+        "Graphic Design",
+        "(Exploring Graphic Design Software, Adobe Photoshop, Illustraator to Create Visual Content)"
       ],
       "1:3":[
-        "Details for Day 1 of Week 4",
-        "Details for Day 2 of Week 4",
-        "Details for Day 3 of Week 4",
-        "Details for Day 4 of Week 4",
-        "Details for Day 5 of Week 4"
+        "CyberSecurity Basics",
+        "(Basics, Ethical Hacking, Network Security, Secure Coding Practices)"
       ],
       "1:4":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "Mobile App Development",
+        "(Basics, Android Platform Java/Kotlin, IOS Swift)"
       ],
       "2:0":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "Digital Marketing",
+        "(Gain Knowledge in Online Marketing, Content Creation, Social Media Management)"
       ],
       "2:1":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "Game Development",
+        "(Basics, Unity Engine, Unreal Engine)"
       ],
       "2:2":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "Graphic Design",
+        "(Exploring Graphic Design Software, Adobe Photoshop, Illustraator to Create Visual Content)"
       ],
       "2:3":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "CyberSecurity Basics",
+        "(Basics, Ethical Hacking, Network Security, Secure Coding Practices)"
       ],
       "2:4":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "Mobile App Development",
+        "(Basics, Android Platform Java/Kotlin, IOS Swift)"
       ],
       "3:0":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "Digital Marketing",
+        "(Gain Knowledge in Online Marketing, Content Creation, Social Media Management)"
       ],
       "3:1":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "Game Development",
+        "(Basics, Unity Engine, Unreal Engine)"
       ],
       "3:2":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "Graphic Design",
+        "(Exploring Graphic Design Software, Adobe Photoshop, Illustraator to Create Visual Content)"
       ],
       "3:3":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "CyberSecurity Basics",
+        "(Basics, Ethical Hacking, Network Security, Secure Coding Practices)"
       ],
       "3:4":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "Mobile App Development",
+        "(Basics, Android Platform Java/Kotlin, IOS Swift)"
       ],
       "4:0":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "Digital Marketing",
+        "(Gain Knowledge in Online Marketing, Content Creation, Social Media Management)"
       ],
       "4:1":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "Game Development",
+        "(Basics, Unity Engine, Unreal Engine)"
       ],
       "4:2":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "Graphic Design",
+        "(Exploring Graphic Design Software, Adobe Photoshop, Illustraator to Create Visual Content)"
       ],
       "4:3":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "CyberSecurity Basics",
+        "(Basics, Ethical Hacking, Network Security, Secure Coding Practices)"
       ],
       "4:4":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "Mobile App Development",
+        "(Basics, Android Platform Java/Kotlin, IOS Swift)"
       ],
       "5:0":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "Digital Marketing",
+        "(Gain Knowledge in Online Marketing, Content Creation, Social Media Management)"
       ],
       "5:1":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "Game Development",
+        "(Basics, Unity Engine, Unreal Engine)"
       ],
       "5:2":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "Graphic Design",
+        "(Exploring Graphic Design Software, Adobe Photoshop, Illustraator to Create Visual Content)"
       ],
       "5:3":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
+        "CyberSecurity Basics",
+        "(Basics, Ethical Hacking, Network Security, Secure Coding Practices)"
       ],
       "5:4":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
-      ],
-      "6:0":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
-      ],
-      "6:1":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
-      ],
-      "6:2":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
-      ],
-      "6:3":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
-      ],
-      "6:4":[
-        "Details for Day 1 of Week 5",
-        "Details for Day 2 of Week 5",
-        "Details for Day 3 of Week 5",
-        "Details for Day 4 of Week 5",
-        "Details for Day 5 of Week 5"
-      ],
+        "Mobile App Development",
+        "(Basics, Android Platform Java/Kotlin, IOS Swift)"
+      ]
 
   });
   
-  const x = ['Digital Marketing', 'Game Development', 'Graphic Design', 'CyberSecurity Basics', 'Mobile App Development']
+  const x = ['Track 1', 'Track 2', 'Track 3', 'Track 4', 'Track 5']
 
   const generateDates = (startWeek) => {
     const startDate = new Date("2024-04-15");
@@ -283,7 +172,7 @@ const Schedule = () => {
       <tr>
         {[1, 2, 3, 4, 5].map((week) => (
           <th key={week} onClick={() => handleWeekChange(week)} style={{ padding: "10px", textAlign: "center", cursor: "pointer", backgroundColor: selectedWeek === week ? "#007BFF" : "whitesmoke", transition: "background-color 0.5s", minWidth: "100px" }}>
-            {x[week - 1]} <br />(Week {week})
+            {x[week - 1]}
           </th>
         ))}
       </tr>
@@ -295,18 +184,20 @@ const Schedule = () => {
       <table style={{ width: "80%", margin: "20px auto", borderCollapse: "collapse", }}>
         <thead>
           <tr>
-            <th style={{ border: "1px solid black", padding: "8px", backgroundColor: "#007BFF", color: "#fff" }}>Date</th>
+            {/* <th style={{ border: "1px solid black", padding: "8px", backgroundColor: "#007BFF", color: "#fff" }}>Date</th> */}
             <th style={{ border: "1px solid black", padding: "8px", backgroundColor: "#007BFF", color: "#fff" }}>Day</th>
+            <th style={{ border: "1px solid black", padding: "8px", backgroundColor: "#007BFF", color: "#fff" }}>Topics</th>
             <th style={{ border: "1px solid black", padding: "8px", backgroundColor: "#007BFF", color: "#fff" }}>Topics</th>
           </tr>
         </thead>
         <tbody>
-          {dates.map((date, index) => (
+          {dates.map(( date, index) => (
             <tr key={index} style={{ backgroundColor: index % 2 === 0 ? "white" : "whitesmoke" }}>
-              <td style={{ border: "1px solid black", padding: "8px" }}>{`${date.getDate()}.${date.getMonth() + 1}.${date.getFullYear()}`}</td>
-              <td style={{ border: "1px solid black", padding: "8px" }}>{["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"][date.getDay()]}</td>
-              <td style={{ border: "1px solid black", padding: "8px" }}>
-                <button onClick={() => handleViewDetails(index)} className="syllabus-link" style={{ display: "block", textAlign: "center", padding: "5px", textDecoration: "none", color: "#007BFF", cursor: "pointer", backgroundColor: "transparent", border: "none", transition: "background-color 0.3s", }}>View</button>
+              {/* <td style={{ border: "1px solid black", padding: "8px" }}>{`${date.getDate()}.${date.getMonth() + 1}.${date.getFullYear()}`}</td> */}
+              <td style={{ border: "1px solid black", padding: "8px" }}>{["Sunday", "Day 1", "Day 2", "Day 3", "Day 4", "Day 5"][date.getDay()]}</td>
+              <td style={{ border: "1px solid black", padding: "8px" }}>{["Sunday", "Digital Marketing", "Game Development", "Graphic Design", "CyberSecurity Basics", "Mobile App Development"][date.getDay()]}</td>
+              <td style={{ border: "1px solid black", padding: "8px"}}>
+                <button onClick={() => handleViewDetails(index)} className="syllabus-link" style={{ display: "block", textAlign: "center", padding: "5px", textDecoration: "none", color: "#007BFF", cursor: "pointer", backgroundColor: "transparent", border: "none", transition: "background-color 0.3s",}}>View</button>
               </td>
             </tr>
           ))}

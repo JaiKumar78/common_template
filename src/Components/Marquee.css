@@ -1,5 +1,6 @@
 .marquee-container {
   overflow: hidden;
+  white-space: wrap;
   width: 90vw;
   margin-top: 15vh;
   display: flex;
@@ -14,10 +15,13 @@
 
 .marquee-content {
   display: flex;
-  animation: marqueeAnimation 40s linear infinite;
+  animation: marqueeAnimation 20s linear infinite;
 }
 
 .marquee-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 25vh;
   width: 20vw;
   margin-left: 10vw;
@@ -39,10 +43,10 @@
 
 @keyframes marqueeAnimation {
   0% {
-      transform: translateX(100%);
+    transform: translateX(100%);
   }
-  100% {
-      transform: translateX(-100%);
+100% {
+    transform: translateX(-100%);
   }
 }
 

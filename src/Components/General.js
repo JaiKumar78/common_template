@@ -1,7 +1,7 @@
 import React from 'react';
 // import ImageSlider from './ImageSlider';
 import Features from './Features';
-import Testimonial from './Testimonial';
+// import Testimonial from './Testimonial';
 
 const General = () => {
   const containerStyle = {
@@ -16,7 +16,7 @@ const General = () => {
         <ImageSlider />
       </div> */}
       <div style={{ marginBottom: '5vh' }}>
-        <Testimonial />
+        {/* <Testimonial /> */}
       </div>
       <div>
         <Features />

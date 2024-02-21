@@ -34,7 +34,7 @@ const Video = () => {
       
             <div className="about-section-image-container" style={{ borderRadius: '3vh', overflow: 'hidden', border: 'none', height: '100%',width:"75%"  }}>
             <iframe width="100%"
-            height="100%" src="https://www.youtube.com/embed/TP5z_NR42Go?si=9f9yVYntHE3GtQp_&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            height="100%" src="https://www.youtube.com/embed/9NsCcMF1jWo?si=kpxf8aYwBOcLTjJ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
   );

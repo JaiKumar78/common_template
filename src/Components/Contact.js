@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   const handleButtonClick = () => {
-    const emailAddress = "hodcse@stjosephs.ac.in";
+    const emailAddress = "hodads@stjosephstechnology.ac.in";
     const subject = "Query about the Internship";
     const body = "Hello, I have a question.";
 
@@ -27,7 +27,7 @@ const Contact = () => {
           Mail
         </button>
       </div>
-      <h2>Call us: +91 98400 04810</h2>      
+      <h2>Call us: +91 99944 09479</h2>      
     </div>
   );
 };

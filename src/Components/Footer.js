@@ -13,7 +13,7 @@ const Footer = () => {
 
   return (
     <footer style={footerStyle}>
-      All rights reserved St. Joseph's College of Engineering | Design by <a href='https://www.linkedin.com/in/vijaybala7604/' target='_blank' style={{color: 'white'}}>VIJAY BALA A</a>
+      All rights reserved St. Joseph's Institute of Technology | Designed by <a href='https://www.linkedin.com/in/department-of-artificial-intelligence-and-data-science-st-joseph-s-institute-of-tech-70422328a/' target='_blank' style={{color: 'white'}}>Department of Artificial Intelligence and Data Science</a>
     </footer>
   );
 }

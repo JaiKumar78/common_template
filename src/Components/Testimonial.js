@@ -1,18 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import image01 from '../Assets/01.jpeg';
-import image02 from '../Assets/02.jpeg';
-import image03 from '../Assets/03.jpeg';
-import image04 from '../Assets/04.jpeg';
-import image05 from '../Assets/05.jpeg';
-import image06 from '../Assets/06.jpeg';
-import image07 from '../Assets/07.png';
-import image08 from '../Assets/08.png';
-import image09 from '../Assets/09.jpeg';
-import image10 from '../Assets/10.jpeg';
-import image11 from '../Assets/11.png';
-import image12 from '../Assets/12.jpeg';
-import image13 from '../Assets/13.jpeg';
-import image14 from '../Assets/14.jpeg';
+import image01 from '../Assets/01.jpg';
+import image02 from '../Assets/02.jpg';
+import image03 from '../Assets/03.jpg';
+import image04 from '../Assets/04.jpg';
+import image05 from '../Assets/05.jpg';
+import image06 from '../Assets/06.jpg';
+import image07 from '../Assets/07.jpg';
+import image08 from '../Assets/08.jpg';
+import image09 from '../Assets/09.jpg';
+import image10 from '../Assets/10.jpg';
+import image11 from '../Assets/11.jpg';
+import image12 from '../Assets/12.jpg';
+import image13 from '../Assets/13.jpg';
+import image14 from '../Assets/14.jpg';
+import image15 from '../Assets/15.jpg';
 
 const Testimonial = () => {
   const [imageIndex, setImageIndex] = useState(0);
@@ -31,14 +32,15 @@ const Testimonial = () => {
     "Details about image 11",
     "Details about image 12",
     "Details about image 13",
-    "Details about image 14"
+    "Details about image 14",
+    "Details about image 15"
   ];
 
   useEffect(() => {
     const intervalId = setInterval(() => {
       setImageOpacity(0);
       setTimeout(() => {
-        setImageIndex((prevIndex) => (prevIndex + 1) % 11);
+        setImageIndex((prevIndex) => (prevIndex + 1) % 15);
         setImageOpacity(1);
       }, 1500);
     }, 4000);
@@ -47,7 +49,7 @@ const Testimonial = () => {
   }, []);
 
   const getImageName = (index) => {
-    const images = [image09, image07, image11, image03, image04, image12, image01, image06, image05, image08, image13, image10, image02, image14];
+    const images = [image09, image07, image11, image03, image04, image14, image12, image01, image06, image05, image08, image10, image02, image13, image15];
     return images[index];
   };
 
